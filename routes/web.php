@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\BackendController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,9 +20,11 @@ Route::get('/', function () {
 });
 
 
-Route::controller(OrderController::class)->group(function () {
-    Route::get('/orders/{id}', 'show');
-    Route::post('/orders', 'store');
+
+//Backend Route
+Route::group(['prefix' => 'admin'], function() {
+    Route::get('/', [BackendController::class,'index']);
+    
 });
 
 
