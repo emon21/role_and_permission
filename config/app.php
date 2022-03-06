@@ -168,6 +168,9 @@ return [
          * Package Service Providers...
          */
         Spatie\Permission\PermissionServiceProvider::class,
+
+        //Socialpaceage
+        Laravel\Socialite\SocialiteServiceProvider::class,
         /*
          * Application Service Providers...
          */
@@ -192,6 +195,8 @@ return [
 
     'aliases' => Facade::defaultAliases()->merge([
         // ...
+        //socialte packeage
+        Laravel\Socialite\Facades\Socialite::class,
     ])->toArray(),
 
 ];

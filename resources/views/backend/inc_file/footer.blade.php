@@ -22,9 +22,38 @@ ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9", "ee6b7db5b51705a13dc2339db3eda
 <script src="{{ asset('backend') }}/assets/js/line-chart.js"></script>
 <!-- all pie chart -->
 <script src="{{ asset('backend') }}/assets/js/pie-chart.js"></script>
+<!-- Start datatable js -->
+<script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.18/js/dataTables.bootstrap4.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.2.3/js/responsive.bootstrap.min.js"></script>
+
 <!-- others plugins -->
 <script src="{{ asset('backend') }}/assets/js/plugins.js"></script>
 <script src="{{ asset('backend') }}/assets/js/scripts.js"></script>
+
+<script>
+    $(function() {
+        $("#example1").DataTable({
+            "ordering": true,
+            "responsive": true,
+            "lengthChange": true,
+            "autoWidth": true,
+
+        }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+        $('#example2').DataTable({
+            "paging": true,
+            "lengthChange": true,
+            "searching": false,
+            "ordering": true,
+            "info": true,
+            "autoWidth": false,
+            "responsive": true,
+            "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
+        });
+    });    
+</script>
 </body>
 
 </html>

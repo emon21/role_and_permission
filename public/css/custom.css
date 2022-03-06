@@ -1,0 +1,99 @@
+.fa-facebook {
+    color: #f9f9f9;
+    font-size: 35px;
+    /* padding: 12px; */
+    width: 50px;
+    height: 50px;
+    background: #0971f1;
+    transition: all .5s;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 15%;
+    line-height: 31px;
+    padding: 10px 7px 0px 6px;
+}
+
+.fa-facebook:hover {
+    background-color: #f3f3f3;
+    color: #0a7beb;
+}
+
+.fa-google {
+    color: #f8fafc;
+    font-size: 35px;
+    /* padding: 12px; */
+    width: 50px;
+    height: 50px;
+    background: hsl(11deg 100% 62%);
+    transition: all .5s;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 15%;
+    line-height: 31px;
+    padding: 10px 7px 0px 6px;
+}
+
+.fa-google:hover {
+    background-color: #0e8b40;
+    color: #212529;
+}
+
+.fa-github {
+    color: #f9f9f9;
+    font-size: 35px;
+    /* padding: 12px; */
+    width: 50px;
+    height: 50px;
+    background: #101112;
+    transition: all .5s;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 15%;
+    line-height: 31px;
+    padding: 10px 7px 0px 6px;
+}
+
+.fa-github:hover {
+    background-color: #bbb7b7;
+    color: #171818;
+}
+
+.fa-linkedin {
+    color: #f9f9f9;
+    font-size: 35px;
+    /* padding: 12px; */
+    width: 50px;
+    height: 50px;
+    background: #0d894f;
+    transition: all .5s;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 15%;
+    line-height: 31px;
+    padding: 10px 7px 0px 6px;
+}
+
+.fa-linkedin:hover {
+    background-color: #bbb7b7;
+    color: #171818;
+}
+
+.fa-twitter {
+    color: #f9f9f9;
+    font-size: 35px;
+    /* padding: 12px; */
+    width: 50px;
+    height: 50px;
+    background: #0480f9;
+    transition: all .5s;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 15%;
+    line-height: 31px;
+    padding: 10px 7px 0px 6px;
+}
+
+.fa-twitter:hover {
+    background-color: #0480f9;
+    color: #061b31;
+}
